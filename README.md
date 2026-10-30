@@ -1,14 +1,12 @@
-![CI Pipeline](https://github.com/stefan931025-sys/buy-side-dcf-lbo-engine/actions/workflows/ci.yml/badge.svg)
-
 # Buy-Side DCF & LBO Valuation Engine
 
-[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI Pipeline](https://github.com/stefan931025-sys/buy-side-def-lbo-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/stefan931025-sys/buy-side-def-lbo-engine/actions/workflows/ci.yml)
+
+![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-Institutional 3-statement Discounted Cash Flow (DCF) valuation engine and Leveraged Buyout (LBO) sensitivity suite designed for buy-side fundamental equity research.
 
----
+Institutional 3-statement Discounted Cash Flow (DCF) valuation engine and Leveraged Buyout (LBO) sensitivity suite designed for buy-side fundamental equity research.
 
 ## 📌 Features & Financial Methodology
 
@@ -16,14 +14,12 @@ Institutional 3-statement Discounted Cash Flow (DCF) valuation engine and Levera
 * **5-Year Unlevered Free Cash Flow (FCFF) Projections:** Incorporates terminal growth rate modeling and net debt equity adjustments.
 * **Scenario Sensitivity:** Evaluates Bull/Base/Bear operating scenarios and exit multiple sensitivity matrices.
 
----
-
 ## 🚀 Quickstart
 
 ```bash
 # Clone repository
-git clone [https://github.com/stefan931025-sys/buy-side-dcf-lbo-engine.git](https://github.com/stefan931025-sys/buy-side-dcf-lbo-engine.git)
-cd buy-side-dcf-lbo-engine
+git clone [https://github.com/stefan931025-sys/buy-side-def-lbo-engine.git](https://github.com/stefan931025-sys/buy-side-def-lbo-engine.git)
+cd buy-side-def-lbo-engine
 
 # Run valuation engine from src directory
 python src/financial_valuation_engine.py
